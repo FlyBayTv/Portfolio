@@ -617,7 +617,10 @@ progress {
 
 .float-right{
     float: right;
+    margin-right: -200px;
+    margin-left: auto;
 }
+
 
 .container,
 .container-fluid,
