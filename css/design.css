@@ -243,3 +243,17 @@
     border-radius:0
 }
 
+.diagonal-line{
+  position: relative;
+  width: 2000px;
+  border-bottom: 1px solid #3399FF;
+  transform: rotate(-15deg);
+}
+
+.text1{
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
