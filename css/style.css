@@ -634,9 +634,9 @@ progress {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
-  padding-left: calc(var(--bs-gutter-x) * 0.5);
-  margin-right: auto;
+  padding-right: calc(var(--bs-gutter-x) * 0.2);
+  padding-left: calc(var(--bs-gutter-x) * 0.2);
+  margin-right: 25px;
   margin-left: auto;
 }
 
@@ -3622,7 +3622,7 @@ textarea.form-control-lg {
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
   font-size: 30px;
   font-weight: var(--bs-nav-link-font-weight);
-  color: var(--bs-nav-link-color);
+  color: white;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -3632,7 +3632,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: var(--bs-nav-link-hover-color);
+  color: white;
 }
 .nav-link.disabled {
   color: var(--bs-nav-link-disabled-color);
@@ -3971,8 +3971,8 @@ textarea.form-control-lg {
     position: absolute;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: var(--bs-navbar-nav-link-padding-x);
-    padding-left: var(--bs-navbar-nav-link-padding-x);
+    padding-right: 25px;
+    padding-left: 25px;
   }
   .navbar-expand-lg .navbar-nav-scroll {
     overflow: visible;
@@ -6793,14 +6793,15 @@ textarea.form-control-lg {
 }
 
 .fixed-top {
-  position: fixed;
+  position: absolute;
+  top: 50px;
   right: 0;
   left: 0;
   z-index: 1030;
 }
 
 .fixed-bottom {
-  position: fixed;
+  position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
